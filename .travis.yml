@@ -17,8 +17,8 @@ script:
 
 notifications:
   email: false
-  irc:
-    channels:
-      - "chat.freenode.net#wok"
-    on_success: always
-    on_failure: always
+  # irc:
+  #   channels:
+  #     - "chat.freenode.net#wok"
+  #   on_success: always
+  #   on_failure: always
