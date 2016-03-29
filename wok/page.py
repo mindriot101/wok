@@ -17,6 +17,10 @@ from wok import util
 from wok import renderers
 from wok.jinja import GlobFileLoader, AmbiguousTemplate
 
+# Python 3 compatability
+if sys.version_info.major >= 3:
+    uncode = str
+
 class Page(object):
     """
     A single page on the website in all its form (raw, rendered, templated),
